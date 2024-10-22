@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
  * main - main block
- * Size of int: 4
- * Size of float: 4
- * Size of a long long int: 8
- * Size of a long int: 4
- * Size of char: 1
+ * Size of int: 4 bytes
+ * Size of float: 4 bytes
+ * Size of a long long int: 8 bytes
+ * Size of a long int: 4 bytes
+ * Size of char: 1 byte
  * Return: 0
  */
 int main(void)
