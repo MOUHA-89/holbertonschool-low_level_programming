@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-printef(with proper grammar, but the outcome is a piece of art ,) - wall gcc;
+ printef("with proper grammar, but the outcome is a piece of art,\n");
 return (0);
 }
 
