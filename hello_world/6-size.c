@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
  * main - C program to find size of int,float,double and char data types using sizeof operator directly
- * the size of int: 4
- * the size of float: 4
- * the size of double: 8
- * the size of char: 1
+ * size of int: 4
+ * size of float: 4
+ * size of double: 8
+ * size of char: 1
  * Return: 0
  */
 int main(void)
