@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * C program to find size of int,float,double and char data types using sizeof operator directly
+ * main - C program to find size of int,float,double and char data types using sizeof operator directly
  * determine and print the size of int
  * determine and imprime the size of float
  * determine and imprime the size of double
