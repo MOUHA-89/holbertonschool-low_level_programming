@@ -5,7 +5,7 @@
  * Size of an int: 4 byte(s)
  * Size of a long int: 8 byte(s)
  * Size of a long long int: 8 byte(s)
- * Size of a float: 4 byte(si)
+ * Size of a float: 4 byte(s)
  * Return: i0
  */
 int main(void)
