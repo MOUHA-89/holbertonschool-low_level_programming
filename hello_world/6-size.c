@@ -9,9 +9,9 @@
  */
 int main(void)
 {
-printf("Size of int: %u bytes\n", sizeof (int));
-printf("Size of float: %u bytes\n", sizeof (float));
-printf("Size of double: %u bytes\n", sizeof (double));
-printf("Size of char: %u bytes\n", sizeof (char));
+putchar("Size of int: %u bytes\n", sizeof (int));
+putchar("Size of float: %u bytes\n", sizeof (float));
+putchar("Size of double: %u bytes\n", sizeof (double));
+putchar("Size of char: %u bytes\n", sizeof (char));
 return (0);
 }
