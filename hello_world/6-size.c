@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
  * main - main block
- * Return: 0
- * Size of an int: 4 bytes
- * Size of a float: 4 bytes
- * Size of a long long int: 8 bytes
- * Size of a long int: 4 bytes
- * Size of a char: 1 byte
+ * Size of a char: 1 byte(s)
+ * Size of an int: 4 byte(s)
+ * Size of a long int: 8 byte(s)
+ * Size of a long long int: 8 byte(s)
+ * Size of a float: 4 byte(si)
+ * Return: i0
  */
 int main(void)
 {
