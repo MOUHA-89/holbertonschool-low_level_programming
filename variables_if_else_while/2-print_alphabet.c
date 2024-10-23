@@ -5,7 +5,6 @@
  */
 int main(void)
 {
-boucle [a - z] is alphabet
 char alphabet = 'a'
 while alphabet <= 'z'
 {
