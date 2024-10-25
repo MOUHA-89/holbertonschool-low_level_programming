@@ -6,13 +6,9 @@
 */
 int _isalpha(int c)
 {
-if (c >= 'a' && c <= 'z')
+if (c >= 'a,A' && c <= 'z,Z')
 return (1);
 
 return (0);
 }
-if (c >= 'A' && c <= 'Z')
-return (1);
 
-return (0);
-}
