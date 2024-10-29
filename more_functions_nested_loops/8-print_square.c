@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_square - print_square block
+ * print_square - print block
  * @size: is a parameter
  * Return: 0
  */
@@ -8,7 +8,6 @@ void print_square(int size)
 {
 int a;
 int b;
-
 if (size > 0)
 {
 for (a = 0; a < size; a++)
