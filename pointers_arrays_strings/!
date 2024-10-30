@@ -1,0 +1,17 @@
+#include "main.h"
+/**
+ * swap_int - swap_int block
+ * @a: is a number
+ * @b: is a number
+ * Return: return void
+ */
+void swap_int(int *a, int *b)
+{
+int *a = a;
+int *b = b;
+temp;
+temp = a;
+a = b;
+b = temp;
+_putchar(a = "%C", b = "%c\n", a, b)
+}
