@@ -2,13 +2,12 @@
 /**
  * _strlen - _strlen bloc
  * @s: is a number
- * Return: return length
+ * Return: return void
  */
 int _strlen(char *s)
 {
 int length = 0;
-while (*s != '\0')
+while (s[length] != '\0')
 length++;
-s++;
 return (length);
 }
