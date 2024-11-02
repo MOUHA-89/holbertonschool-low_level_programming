@@ -10,7 +10,7 @@ char *y = str;
 int a = 0;
 int b = 0;
 int c;
-while (*y != '\n')
+while (*y != '\0')
 {
 y++;
 a++;
