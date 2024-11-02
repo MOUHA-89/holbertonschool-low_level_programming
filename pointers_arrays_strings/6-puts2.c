@@ -19,7 +19,7 @@ a++;
 b = a - 1;
 for (c = 0; c <= b; c++)
 {
-if (0 % 2 == 0)
+if (c % 2 == 0)
 {
 _putchar(str[c]);
 }
