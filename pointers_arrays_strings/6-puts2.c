@@ -1,14 +1,15 @@
 #include "main.h"
 /**
- * puts2 - puts2 block
- * @str: is a size
- * Return: return void
+ * puts2 - fonction print only one character out of two
+ * starting with the first one
+ * @str: input
+ * Return: print
  */
 void puts2(char *str)
 {
-char *y = str;
 int a = 0;
 int b = 0;
+char *y = str;
 int c;
 while (*y != '\0')
 {
@@ -22,6 +23,6 @@ if (0 % 2 == 0)
 {
 _putchar(str[c]);
 }
-_putchar('\n');
 }
+_putchar('\n');
 }
