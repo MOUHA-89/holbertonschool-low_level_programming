@@ -2,8 +2,8 @@
 
 /**
  * *_strcat - concatenates two strings
- * @dest: String that will be appended
- * @src: String to be concatenated upon
+ * @src: String that will be appended
+ * @dest: String to be concatenated upon
  * Return: a pointer to the resulting string
  */
 char *_strcat(char *dest, char *src)
