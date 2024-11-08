@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - main block
  * @argc: are arguments
@@ -8,7 +9,7 @@
 int main(int argc, char *argv[])
 {
 int nombre;
-for (nombre = 0; nombre < argc; nombre++ )
+for (nombre = 0; nombre < argc; nombre++)
 {
 printf("argv[%d] = %s\n", nombre, argv[nombre]);
 }
