@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 /**
  * main - main block
  * @argc: number of arguments
@@ -8,9 +7,7 @@
  */
 int main(int __attribute__((__unused__)) argc, char *argv[])
 {
-int nombre = 0;
-if (nombre < argc)
-printf("argv[%d] = %s\n", nombre, argv[nombre]);
+printf("%s\n", argv[0]);
 
 return (0);
 }
