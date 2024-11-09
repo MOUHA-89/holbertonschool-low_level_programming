@@ -1,12 +1,14 @@
 #include <stdio.h>
 /**
- * main - main block
- * @argc: number of arguments
- * @argv: is arrea string
- * Return: 0
- */
-int main(int argc, char __attribute__((__unused__)) *argv[])
+* main - Entry point, Also print number of arguments starting a 0.
+* @argc: count
+* @argv: arguments string
+*
+* Return: INT count of arguments.
+*/
+int main(int argc, char *argv[] __attribute__((__unused__)))
+
 {
 printf("%d\n", argc - 1);
-return (0);
+return (argc - 1);
 }
