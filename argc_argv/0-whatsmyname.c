@@ -6,7 +6,7 @@
  * @argv: is a arrea string
  * Return: 0
  */
-int main(int argc, char *argv[])
+int main(int __attribute__((unused)) argc, char *argv[])
 {
 int nombre;
 for (nombre = 0; nombre < argc; nombre++)
