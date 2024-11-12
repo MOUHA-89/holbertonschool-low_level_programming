@@ -9,7 +9,7 @@
  */
 char *_strdup(char *str)
 {
-char *lol;
+char *kel;
 int r;
 int i;
 if (str == NULL)
@@ -18,17 +18,17 @@ return (NULL);
 
 while (str[r] != '\0')
 	r++;
-lol = (char *) malloc((r + 1) * sizeof(char));
+kel = (char *) malloc((r + 1) * sizeof(char));
 
-if (lol == NULL)
+if (kel == NULL)
 
 return (NULL);
 
 for (i = 0; i < r; i++)
 
-lol[i] = str[r];
+kel[i] = str[r];
 
-lol[i] = '\0';
+kel[i] = '\0';
 
-return (lol);
+return (kel);
 }
