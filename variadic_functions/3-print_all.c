@@ -2,7 +2,6 @@
 /**
  * print_all -  function that prints anything
  * @format: is a parameter
- * Return: return void
  */
 void print_all(const char * const format, ...)
 {
