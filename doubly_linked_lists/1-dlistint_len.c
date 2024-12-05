@@ -5,7 +5,7 @@
  * @h: point to the dlistint_t list.
  * Return: s
  */
-size_t dlistint_len(co./bnst dlistint_t *h)
+size_t dlistint_len(const dlistint_t *h)
 {
 size_t s = 0;
 
