@@ -3,7 +3,7 @@
 /**
  * *add_dnodeint - function that adds a new node
  * @n: is a number of node
- * @h: double pointer to dlistint_t list.
+ * @head: double pointer to dlistint_t list.
  * Return: the address of the new element
  */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
