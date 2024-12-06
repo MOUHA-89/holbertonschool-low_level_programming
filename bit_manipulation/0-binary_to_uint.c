@@ -24,5 +24,5 @@ for (power = 1, total = 0, len--; len >= 0; len--, power *= 2)
 if (b[len] == '1')
 total += power;
 }
-return (total)
+return (total);
 }
